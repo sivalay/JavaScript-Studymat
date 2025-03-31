@@ -20,3 +20,8 @@
 - note
 - markdown
 - localstorage
+
+5. ToDo App
+
+- CRUD todos
+- localStorage

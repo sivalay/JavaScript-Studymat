@@ -1,0 +1,51 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body, a, ul, li, p, button{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: sans-serif;   
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    color: purple;
+    opacity: 0.4; 
+}
+
+#form{
+    max-width: 100%;
+    width: 400px;
+    margin: auto;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.td-list{
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    margin: 5px auto;
+}
+
+.todo{
+    width: 100%;
+    padding: 10px;
+    background-color: #f8eaea;
+}
+
+

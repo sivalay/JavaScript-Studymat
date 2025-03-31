@@ -11,11 +11,26 @@ body, ul, li, a, p{
 }
 
 .main-wrap{
+    top: -15px;
+    position: relative;
     min-height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     /* align-items: center;
     justify-content: center; */
-    background-color: rgb(19, 247, 247);
+    padding-top: 3rem;
+    background-color: rgb(165, 241, 241);
+}
+
+.add{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    background-color: rgb(90, 241, 90);
+    cursor: pointer;
 }
 
 .notes{
@@ -23,6 +38,7 @@ body, ul, li, a, p{
     height: 400px;
     background-color: #fff;
     margin: 15px;
+    overflow: hidden;
 }
 
 .tools{
@@ -33,8 +49,17 @@ body, ul, li, a, p{
 }
 
 .tools button{
+    position: relative;
     border: none;
+    color: #000;
     background-color: transparent;
+    cursor: pointer;
+}
+
+.notes .main{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(252, 244, 245);
 }
 
 .notes textarea{
@@ -44,9 +69,6 @@ body, ul, li, a, p{
     border: none;
 }
 
-.notes textarea{
-    width: 100%;
-    height: 100%;
-    outline: none;
-    border: none;
+.notes .hidden{
+    display: none;
 }
