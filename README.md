@@ -25,3 +25,5 @@
 
 - CRUD todos
 - localStorage
+
+6. Movie App
