@@ -27,3 +27,30 @@
 - localStorage
 
 6. Movie App
+
+- list of movies
+- movie info
+
+7. GitHub profiles App
+
+- search for users
+- get and show data
+
+8. Drawing App
+
+- canvas
+- size
+- color
+
+9. Password Generator
+
+- numbers
+- letters
+- symbols
+- copy to clipboard
+
+10. Weather App
+
+- enter Location
+- get weather
+- have some icons
