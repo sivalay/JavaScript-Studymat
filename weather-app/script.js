@@ -2,8 +2,8 @@ const apikey = "a";
 const main = document.querySelector('#main');
 const form = document.querySelector('#form');
 const search = document.querySelector('#search');
-console.log(form)
 console.log(search)
+console.log(main)
 
 const url = (city) => `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
 
